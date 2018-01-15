@@ -1,0 +1,22 @@
+{
+    "swagger": {
+        "info": {
+            "description": "Micro-service for management of Hypothesis engine experiments",
+            "version": "0.0.1",
+            "title": "Hypothesis Engine Experiment Manager"
+        },
+        "schemes": [
+            "http",
+            "https"
+        ],
+        "outputDirectory": "./dist",
+        "entryFile": "./src/server.ts",
+        "host": "localhost:8080",
+        "basePath": "/api/v1.0/"
+    },
+    "routes": {
+        "basePath": "/api/v1.0",
+        "entryFile": "./src/server.ts",
+        "routesDir": "./src/middleware/server-config"
+    }
+}
