@@ -1,0 +1,7 @@
+express:
+    port: 9090
+    debug: 5858
+    host: ws-node-demo
+
+# none/debug/info
+loglevel: info
