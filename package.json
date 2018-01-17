@@ -1,0 +1,23 @@
+{
+  "name": "manager-api",
+  "version": "1.0.0",
+  "description": "Micro-service for management of Hypothesis engine experiments",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolbabu/manager-api.git"
+  },
+  "keywords": [],
+  "author": "Anmol Babu <anmolbudugutta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anmolbabu/manager-api/issues"
+  },
+  "homepage": "https://github.com/anmolbabu/manager-api#readme",
+  "dependencies": {
+    "node-uuid": "^1.4.8",
+    "validator": "^9.2.0"
+  }
+}
