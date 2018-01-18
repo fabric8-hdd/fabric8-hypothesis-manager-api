@@ -1,9 +1,9 @@
 var req_handlers = require("../src/api/handlers.js").request_handlers(),
 	chai = require("chai"),
 	chaiHTTP = require("chai-http"),
-	eventually = require("chai-as-promised")
-	should = chai.should()
-	assert = chai.assert;
+	eventually = require("chai-as-promised"),
+	should = chai.should(),
+	assert = chai.assert
 
 chai.use(chaiHTTP)
 chai.use(eventually)
