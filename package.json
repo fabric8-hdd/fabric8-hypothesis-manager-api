@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/anmolbabu/manager-api#readme",
   "dependencies": {
-    "validator": "^9.2.0"
+    "validator": "^9.2.0",
+    "hypothesis-core": "github:fabric8-hdd/hypothesis-core"
   },
   "devDependencies": {
     "chai": "^4.1.2",
