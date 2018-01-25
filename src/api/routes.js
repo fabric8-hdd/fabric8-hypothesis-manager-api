@@ -1,7 +1,7 @@
 var req_handlers = require("./handlers.js").request_handlers()
 
 var appRouter = function(app) {
-	app.get("/api/v1.0/experiments/:experiment_id", function(req , res){
+	app.get("/manager/api/v1.0/experiments/:experiment_id", function(req , res){
 		console.log("The request body is: ", req.params.experiment_id)
 		req_handlers.get_experiment(req.params.experiment_id).then(function (result) {
 			res.status(200)
@@ -14,12 +14,12 @@ var appRouter = function(app) {
 		})
 	}),
 
-	app.get("/api/v1.0/readiness", function(req , res){
+	app.get("/manager/api/v1.0/readiness", function(req , res){
 		res.status(200)
 		res.end()
 	}),
 
-	app.get("/api/v1.0/liveness", function(req , res){
+	app.get("/manager/api/v1.0/liveness", function(req , res){
 		res.status(200)
 		res.end()
 	})
